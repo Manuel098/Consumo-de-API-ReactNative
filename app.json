@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "PruebaUII",
+    "slug": "PruebaUII",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "apiconsum"
+    },
+    "android": {
+      "package": "com.example.myapp"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
